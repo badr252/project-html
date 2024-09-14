@@ -1,0 +1,710 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body {
+      padding-top: 20px;
+      background-color: #f8f9fa;
+    }
+    .card {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .card-img-top {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      object-fit: cover;
+      height: 200px;
+    }
+    .card-description {
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+    .btn-group .btn {
+      border-radius: 0;
+    }
+    .row > div {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="mb-4">Hello, Bootstrap!</h1>
+
+    <!-- Navigation Links -->
+    <nav class="mb-4">
+      <a href="login.html" class="btn btn-primary me-2">Login</a>
+      <a href="logout.html" class="btn btn-secondary me-2">Logout</a>
+      <a href="rate.html" class="btn btn-success">Rate App</a>
+    </nav>
+
+    <!-- Cards Section -->
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card">
+          <img src="download (1).jpeg" class="card-img-top" alt="Iron Rods">
+          <div class="card-body">
+            <h5 class="card-title">حالة عرض خاصة</h5>
+            <p class="card-text">شركة بدر لبيع وتوريد الحديد الكريتال. نحن نقدم أفضل الخامات وأرخص الأسعار في السوق. تواصل معنا للحصول على عروض مميزة وأسعار تنافسية.</p>
+            <div class="btn-group mb-3" role="group">
+              <button type="button" class="btn btn-primary">Edit</button>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Share
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Share on Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Share on Twitter</a></li>
+                <li><a class="dropdown-item" href="#">Share on LinkedIn</a></li>
+              </ul>
+            </div>
+            <p class="card-description">للتواصل: 01101006444</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card">
+          <img src="download (2).jpeg" class="card-img-top" alt="Steel Sheets">
+          <div class="card-body">
+            <h5 class="card-title">عرض مميز</h5>
+            <p class="card-text">شركة بدر متخصصة في توريد الحديد الكريتال بكافة أنواعه. لدينا جميع الخامات المطلوبة بأسعار تنافسية وعروض خاصة للمشترين.</p>
+            <div class="btn-group mb-3" role="group">
+              <button type="button" class="btn btn-primary">Edit</button>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Share
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Share on Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Share on Twitter</a></li>
+                <li><a class="dropdown-item" href="#">Share on LinkedIn</a></li>
+              </ul>
+            </div>
+            <p class="card-description">للتواصل: 01101006444</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card">
+          <img src="download.jpeg" class="card-img-top" alt="Construction Iron">
+          <div class="card-body">
+            <h5 class="card-title">أفضل العروض</h5>
+            <p class="card-text">تقدم شركة بدر عروض مميزة على كافة أنواع الحديد الكريتال. استفد من الخصومات والعروض الحصرية الآن.</p>
+            <div class="btn-group mb-3" role="group">
+              <button type="button" class="btn btn-primary">Edit</button>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Share
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Share on Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Share on Twitter</a></li>
+                <li><a class="dropdown-item" href="#">Share on LinkedIn</a></li>
+              </ul>
+            </div>
+            <p class="card-description">للتواصل: 01101006444</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card">
+          <img src="download (3).jpeg" class="card-img-top" alt="Steel Beams">
+          <div class="card-body">
+            <h5 class="card-title">تخفيضات خاصة</h5>
+            <p class="card-text">نحن نقدم تخفيضات خاصة على الكميات الكبيرة من الحديد الكريتال. تواصل معنا للحصول على أفضل الأسعار.</p>
+            <div class="btn-group mb-3" role="group">
+              <button type="button" class="btn btn-primary">Edit</button>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Share
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Share on Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Share on Twitter</a></li>
+                <li><a class="dropdown-item" href="#">Share on LinkedIn</a></li>
+              </ul>
+            </div>
+            <p class="card-description">للتواصل: 01101006444</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card">
+          <img src="download (4).jpeg" class="card-img-top" alt="Metal Sheets">
+          <div class="card-body">
+            <h5 class="card-title">خصومات موسمية</h5>
+            <p class="card-text">تستفيد من الخصومات الموسمية على كافة منتجاتنا من الحديد الكريتال. لا تفوت الفرصة واحصل على العروض الآن.</p>
+            <div class="btn-group mb-3" role="group">
+              <button type="button" class="btn btn-primary">Edit</button>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Share
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Share on Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Share on Twitter</a></li>
+                <li><a class="dropdown-item" href="#">Share on LinkedIn</a></li>
+              </ul>
+            </div>
+            <p class="card-description">للتواصل: 01101006444</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card">
+          <img src="download (6).jpeg" class="card-img-top" alt="Metal Products">
+          <div class="card-body">
+            <h5 class="card-title">عرض خاص للمعادن</h5>
+            <p class="card-text">تقدم شركة بدر عرضاً خاصاً على كافة أنواع المعادن، بما في ذلك الحديد الكريتال. استغل الفرصة واحصل على أفضل الأسعار الآن.</p>
+            <div class="btn-group mb-3" role="group">
+              <button type="button" class="btn btn-primary">Edit</button>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Share
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Share on Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Share on Twitter</a></li>
+                <li><a class="dropdown-item" href="#">Share on LinkedIn</a></li>
+              </ul>
+            </div>
+            <p class="card-description">للتواصل: 01101006444</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body {
+      padding-top: 20px;
+      background-color: #f8f9fa;
+    }
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .form-container h2 {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h2 class="text-center">Login</h2>
+      <form>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" required>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Login</button>
+      </form>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Logout</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body {
+      padding-top: 20px;
+      background-color: #f8f9fa;
+    }
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .form-container h2 {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h2 class="text-center">Logout</h2>
+      <form>
+        <p class="text-center">You have been logged out successfully.</p>
+        <a href="index.html" class="btn btn-primary w-100">Return to Home</a>
+      </form>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rate the App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body {
+      padding-top: 20px;
+      background-color: #f8f9fa;
+    }
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .form-container h2 {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h2 class="text-center">Rate the App</h2>
+      <form>
+        <div class="mb-3">
+          <label for="rating" class="form-label">Rating (1 to 7 stars)</label>
+          <input type="number" class="form-control" id="rating" min="1" max="7" required>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Submit Rating</button>
+      </form>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Complaints</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body {
+      padding-top: 20px;
+      background-color: #f8f9fa;
+    }
+    .form-container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .form-container h2 {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h2 class="text-center">Submit a Complaint</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="complaint" class="form-label">Complaint</label>
+          <textarea class="form-control" id="complaint" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Submit Complaint</button>
+      </form>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inquiries</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body {
+      padding-top: 20px;
+      background-color: #f8f9fa;
+    }
+    .form-container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .form-container h2 {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h2 class="text-center">Submit an Inquiry</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="inquiry" class="form-label">Inquiry</label>
+          <textarea class="form-control" id="inquiry" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Submit Inquiry</button>
+      </form>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Order Products</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body {
+      padding-top: 20px;
+      background-color: #f8f9fa;
+    }
+    .form-container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .form-container h2 {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h2 class="text-center">Order Products</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="product" class="form-label">Product</label>
+          <input type="text" class="form-control" id="product" required>
+        </div>
+        <div class="mb-3">
+          <label for="quantity" class="form-label">Quantity</label>
+          <input type="number" class="form-control" id="quantity" required>
+        </div>
+        <div class="mb-3">
+          <label for="address" class="form-label">Delivery Address</label>
+          <textarea class="form-control" id="address" rows="3" required></textarea>
+        </div>
+        <div class="mb-3">
+          <p class="text-center">For any urgent requests, call us at <strong>01021248242</strong></p>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Place Order</button>
+      </form>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body {
+      padding-top: 20px;
+      background-color: #f8f9fa;
+    }
+    .card {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+    .card-img-top {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .card-body {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="complaints.html">Complaints</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="inquiries.html">Inquiries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="order.html">Order Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="logout.html">Logout</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rate.html">Rate the App</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card">
+          <img src="download (1).jpeg" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Product 1</h5>
+            <p class="card-text">تفاصيل عن المنتج الأول.</p>
+            <div class="btn-group mb-3" role="group">
+              <button type="button" class="btn btn-primary">Edit</button>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Share
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Share on Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Share on Twitter</a></li>
+                <li><a class="dropdown-item" href="#">Share on LinkedIn</a></li>
+              </ul>
+            </div>
+            <p class="card-description">للتواصل: 01101006444</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card">
+          <img src="download (2).jpeg" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Product 2</h5>
+            <p class="card-text">تفاصيل عن المنتج الثاني.</p>
+            <div class="btn-group mb-3" role="group">
+              <button type="button" class="btn btn-primary">Edit</button>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Share
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Share on Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Share on Twitter</a></li>
+                <li><a class="dropdown-item" href="#">Share on LinkedIn</a></li>
+              </ul>
+            </div>
+            <p class="card-description">للتواصل: 01101006444</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card">
+          <img src="download (3).jpeg" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Product 3</h5>
+            <p class="card-text">تفاصيل عن المنتج الثالث.</p>
+            <div class="btn-group mb-3" role="group">
+              <button type="button" class="btn btn-primary">Edit</button>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Share
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Share on Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Share on Twitter</a></li>
+                <li><a class="dropdown-item" href="#">Share on LinkedIn</a></li>
+              </ul>
+            </div>
+            <p class="card-description">للتواصل: 01101006444</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card">
+          <img src="download (4).jpeg" class="card-img-top" alt="Product 4">
+          <div class="card-body">
+            <h5 class="card-title">Product 4</h5>
+            <p class="card-text">تفاصيل عن المنتج الرابع.</p>
+            <div class="btn-group mb-3" role="group">
+              <button type="button" class="btn btn-primary">Edit</button>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Share
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Share on Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Share on Twitter</a></li>
+                <li><a class="dropdown-item" href="#">Share on LinkedIn</a></li>
+              </ul>
+            </div>
+            <p class="card-description">للتواصل: 01101006444</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card">
+          <img src="download (5).jpeg" class="card-img-top" alt="Product 5">
+          <div class="card-body">
+            <h5 class="card-title">Product 5</h5>
+            <p class="card-text">تفاصيل عن المنتج الخامس.</p>
+            <div class="btn-group mb-3" role="group">
+              <button type="button" class="btn btn-primary">Edit</button>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Share
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Share on Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Share on Twitter</a></li>
+                <li><a class="dropdown-item" href="#">Share on LinkedIn</a></li>
+              </ul>
+            </div>
+            <p class="card-description">للتواصل: 01101006444</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card">
+          <img src="download (6).jpeg" class="card-img-top" alt="Product 6">
+          <div class="card-body">
+            <h5 class="card-title">Product 6</h5>
+            <p class="card-text">تفاصيل عن المنتج السادس.</p>
+            <div class="btn-group mb-3" role="group">
+              <button type="button" class="btn btn-primary">Edit</button>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Share
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Share on Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Share on Twitter</a></li>
+                <li><a class="dropdown-item" href="#">Share on LinkedIn</a></li>
+              </ul>
+            </div>
+            <p class="card-description">للتواصل: 01101006444</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card">
+          <img src="download (7).jpeg" class="card-img-top" alt="Product 7">
+          <div class="card-body">
+            <h5 class="card-title">Product 7</h5>
+            <p class="card-text">تفاصيل عن المنتج السابع.</p>
+            <div class="btn-group mb-3" role="group">
+              <button type="button" class="btn btn-primary">Edit</button>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Share
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Share on Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Share on Twitter</a></li>
+                <li><a class="dropdown-item" href="#">Share on LinkedIn</a></li>
+              </ul>
+            </div>
+            <p class="card-description">للتواصل: 01101006444</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
